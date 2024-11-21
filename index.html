@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Admission Form</title>
+    </head>
+    <body>
+        <header>
+            <h3>Admission Form</h3>
+        </header>
+        <main>
+            <form action="/action.php">
+                <div>
+                    <h4>Student's Info</h4>
+                    <input
+                        type="text"
+                        placeholder="Full Name"
+                        required="true"
+                    /><br />
+                    <br /><label for="dat">Enter Your DOB</label>
+                    <input type="date" id="dat" required /><br />
+                    <input type="radio" value="male" name="gender" />Male
+                    <br /><input
+                        type="radio"
+                        value="female"
+                        name="gender"
+                    />Female
+
+                    <br />
+                    <input type="radio" value="others" name="gender" />Others
+                    <h5>Grade Applying For</h5>
+                    <select name="Grade Applied">
+                        <option value="VI">VI</option>
+                        <option value="VII">VII</option>
+                        <option value="VIII">VIII</option>
+                        <option value=" IX">IX</option>
+                        <option value="XI ">XI</option>
+                    </select>
+                </div>
+                <div>
+                    <h4>Parents'/Guardian's Info</h4>
+                    <input
+                        type="text"
+                        placeholder="Parent's/Gaurdian's Name"
+                    /><br /><br />
+                    <input type="text" placeholder="Contact" /><br /><br />
+                    <input type="text" placeholder="E-mail(optional)" />
+                </div>
+                <div>
+                    <h4>Address</h4>
+                    <textarea
+                        itemtype="text"
+                        placeholder="Current Residence"
+                    ></textarea>
+                </div>
+                <div>
+                    <h4>Previous School</h4>
+                    <input type="text" placeholder="School's Name" /><br />
+                    <h6>Grade Completed</h6>
+                    <input type="radio" value="V" name="Grade Completed" />V
+                    <input type="radio" value="VI" name="Grade Completed" />VI
+                    <input type="radio" value="VII" name="Grade Completed" />VII
+                    <br />
+                    <input
+                        type="radio"
+                        value="VIII"
+                        name="Grade Completed"
+                    />VIII
+                    <input type="radio" value="X" name="Grade Completed" />X
+                </div>
+                <div>
+                    <h4>Parents Declaration</h4>
+                    <input
+                        type="checkbox"
+                        value="declaration"
+                        required="true"
+                    />"We assure that all the information provided is true and
+                    correct."
+                </div>
+                <br /><br />
+            </form>
+        </main>
+        <footer>
+            <input type="submit" /> <br /><br />
+            <a href="http://Google.com" target="_main">Need Help?</a>
+            <a href="http://youtube.com" target="_main">Report</a>
+            <a
+                href="https://youtube.com/shorts/SXHMnicI6Pg?si=3EoCDCBBdYTqMvYf"
+                target="_blank"
+                >Main Site</a
+            >
+        </footer>
+    </body>
+</html>
